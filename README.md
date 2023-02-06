@@ -16,7 +16,7 @@ Desafio DIO Linux-do-zero: crie um script shell para criar usuários, grupos, pe
 ## Definições pré-respondidas:
 
 - Todo provisionamento deve ser feito em um arquivo do tipo Bash Script;
-    - `nano script.sh`
+    - `nano start_environment_pattern.sh`
 - Excluir diretórios, grupos e usuários criados anteriormente:
     - `rm -Rf /adm`
     - `groupdel GRP_ADM`
@@ -42,7 +42,6 @@ Desafio DIO Linux-do-zero: crie um script shell para criar usuários, grupos, pe
 - Todos os usuários terão permissão total dentro do diretório publico;
     - `chmod 777 /publico`
 - Subir arquivo de script criado para a sua conta no GitHub.
-- `nano start_environment_pattern.sh`
 
 ## Executar o arquivo
 - `chmod +x  start_environment_pattern.sh`concede a permissão de execução do arquivo
